@@ -1,0 +1,111 @@
+body {
+    background-image: url("../img/mine\ background.png");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    margin: 5px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: -20px;
+}
+
+.header h3 {
+    font-size: 25px;
+}
+
+.levels {
+    text-align: center;
+}
+.level {
+    display: inline-block;
+    color: #edff00;
+    height: 20px;
+    width: 70px;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: black;
+    background-color: #0056da;
+}
+
+.details-container {
+    /* height: 40px; */
+    /* width: 240px; */
+    /* background:#0056da; */
+    /* border-radius: 10px; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.flag-count {
+    height: 50px;
+    width: 100px;
+    display: inline-block
+}
+.smiley {
+    height: 50px;
+    width: 30px;
+    display: inline-block
+}
+
+.clock {
+    display: inline-block;
+    height:50px;
+    width: 120px;
+    /* margin-left: ; */
+}
+
+table {
+    border: solid 7px;
+    border-radius: 10px;
+    border-color:#55e5f2;
+    margin: 0 auto;
+    background-color: #28d0f1;
+    font-family: cursive;
+}
+
+td {
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #260180
+}
+
+.mine {
+    background-image: url("../img/Cartoon_Mine_50x50.png");   
+
+}
+
+.covered {
+    /* background-color: black; */
+    background-image: url("../img/card\ back\ 2\ cropped\ 50x50.jpg ");   
+    border: 0;
+    text-indent: -9999px;
+
+}
+
+
+.flagged {
+    background-image: url("../img/card\ back\ 3\ cropped\ 50x50.jpg");   
+    border: 0;
+    color: #72705b
+}
+
+.wrong {
+    color: blue;
+}
+
+.invisible {
+    display: none;
+}

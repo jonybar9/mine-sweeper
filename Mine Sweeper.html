@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onload="init(gBoard, gCurrLevel, undefined)">
+    <div class="header" onmouseup="test(event)">
+        <h1>MINE SWIPPER</h1>
+        <h3>best score for this level: <span class="high-score"></span></h3>
+    </div>
+    <div class="levels">
+        <div class="level" onclick="changeLevel (0)">EASY</div>
+        <div class="level" onclick="changeLevel (1)">NORMAL</div>
+        <div class="level" onclick="changeLevel (2)">HARD</div>
+
+    </div>
+    <div class="details-container">
+        <div class="flag-count"></div>
+        <div class="smiley" onclick="restart(gCurrLevel)"> :) </div>
+        <div class="clock">⏱ 0</div>
+    </div>
+    <div class="board-container">
+        <table border="1">
+            <tbody>
+
+            </tbody>
+        </table>
+        <script src="js/general funcs.js"></script>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
